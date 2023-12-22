@@ -1,4 +1,0 @@
-name: E2E on Edge
-
-on: [push]
-
