@@ -12,6 +12,5 @@ describe('template spec', () => {
     cy.get('button[type=submit]').click();
     cy.get('.oxd-text oxd-text--h6 orangehrm-forgot-password-title').should('contain','Reset Password link sent successfully')
 // and for the id, we have to give the # before the locator
-    
   })
 })
